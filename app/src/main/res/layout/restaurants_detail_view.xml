@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.doordashlite.restaurant_detail.RestaurantDetailView
+    android:id="@+id/restaurant_detail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/doordash2x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/restaurant_detail_image"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:paddingBottom="@dimen/doordash2x"
+        android:layout_height="@dimen/doordashImgSize"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/restaurant_detail_name"
+        android:paddingBottom="@dimen/doordash2x"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restaurant_detail_phone"
+        android:paddingBottom="@dimen/doordash2x"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/restaurant_detail_address"/>
+    </LinearLayout>
+</com.example.doordashlite.restaurant_detail.RestaurantDetailView>
